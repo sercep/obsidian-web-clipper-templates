@@ -1,1 +1,78 @@
-
+{
+	"schemaVersion": "0.1.0",
+	"name": "RateYourMusic release",
+	"behavior": "create",
+	"noteContentFormat": "Track listing:\n\n| track                                                                                                                                     | duration                                                                                                 |\n| ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:1|join|split:\"\\n\"|first|split:\"lyrics\"|first}}  | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:1|join|trim}}  |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:2|join|split:\"\\n\"|first|split:\"lyrics\"|first}}  | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:2|join|trim}}  |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:3|join|split:\"\\n\"|first|split:\"lyrics\"|first}}  | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:3|join|trim}}  |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:4|join|split:\"\\n\"|first|split:\"lyrics\"|first}}  | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:4|join|trim}}  |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:5|join|split:\"\\n\"|first|split:\"lyrics\"|first}}  | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:5|join|trim}}  |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:6|join|split:\"\\n\"|first|split:\"lyrics\"|first}}  | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:6|join|trim}}  |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:7|join|split:\"\\n\"|first|split:\"lyrics\"|first}}  | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:7|join|trim}}  |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:8|join|split:\"\\n\"|first|split:\"lyrics\"|first}}  | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:8|join|trim}}  |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:9|join|split:\"\\n\"|first|split:\"lyrics\"|first}}  | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:9|join|trim}}  |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:10|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:10|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:11|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:11|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:12|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:12|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:13|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:13|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:14|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:14|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:15|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:15|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:16|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:16|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:17|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:17|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:18|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:18|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:19|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:19|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:20|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:20|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:21|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:21|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:22|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:22|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:23|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:23|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:24|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:24|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:25|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:25|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:26|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:26|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:27|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:27|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:28|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:28|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:29|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:29|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:30|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:30|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:31|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:31|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:32|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:32|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:33|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:33|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:34|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:34|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:35|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:35|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:36|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:36|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:37|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:37|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:38|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:38|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:39|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:39|join|trim}} |\n| {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_title|nth:40|join|split:\"\\n\"|first|split:\"lyrics\"|first}} | {{selector: ul.tracklisting > li.track:has([itemprop=\"track\"]) .tracklist_duration|nth:40|join|trim}} |\n",
+	"properties": [
+		{
+			"name": "rym link",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "artist",
+			"value": "{{selector:span[itemprop=\\\"byArtist\\\"] .artist|wikilink}}",
+			"type": "multitext"
+		},
+		{
+			"name": "release type",
+			"value": "{{selector:.album_info || tr || td[colspan=\\\"2\\\"]|split:\\\"Type\\\"|last|split:\\\"Released\\\"|first}}",
+			"type": "text"
+		},
+		{
+			"name": "release date",
+			"value": "{{selector:.album_info || tr || td[colspan=\\\"2\\\"]|split:\\\"Released\\\"|last|split:\\\"RYM Rating\\\"|first|split:\\\"Recorded\\\"|first|date:\\\"YYYY-MM-DD\\\"}}",
+			"type": "date"
+		},
+		{
+			"name": "year",
+			"value": "{{selector:.album_info || tr || td[colspan=\\\"2\\\"]|split:\\\"Released\\\"|last|split:\\\"RYM Rating\\\"|first|split:\\\"Recorded\\\"|first|split:\\\"Genres\\\"|first|date:\\\"YYYY\\\"}}",
+			"type": "number"
+		},
+		{
+			"name": "RYM Rating",
+			"value": "{{selector:.avg_rating}}",
+			"type": "number"
+		},
+		{
+			"name": "RYM Ratings",
+			"value": "{{selector:.num_ratings|first|split:\\\"from \\\"|last|split:\\\" \\\"|first|split:\\\",\\\"|join:\\\"\\\"}}",
+			"type": "number"
+		},
+		{
+			"name": "genres",
+			"value": "{{selector:.release_genres .genre|join:\\\", \\\"}}",
+			"type": "multitext"
+		},
+		{
+			"name": "descriptors",
+			"value": "{{selector:.release_pri_descriptors}}",
+			"type": "multitext"
+		},
+		{
+			"name": "language",
+			"value": "{{selector:.album_info || tr || td[colspan=\\\"2\\\"]|split:\\\"Language\\\"|last|split:\\\"Common tags\\\"|first|split:\\\"Artist\\\"|first|split:\\\"s \\\"|last|trim|split:\\\",\\\"}}",
+			"type": "multitext"
+		},
+		{
+			"name": "duration",
+			"value": "{{selector:.tracklist_total|first|split:\\\" \\\"|last}}",
+			"type": "text"
+		},
+		{
+			"name": "my rating",
+			"value": "{{selector:.release_my_catalog .rating_num|split:\\\"---\\\"|last}}",
+			"type": "number"
+		},
+		{
+			"name": "rym tags",
+			"value": "{{selector:.my_catalog_tags span|join|split:\\\"Tags\\\"|first}}",
+			"type": "text"
+		}
+	],
+	"triggers": [
+		"https://rateyourmusic.com/release"
+	],
+	"noteNameFormat": "{{selector:span[itemprop=\"byArtist\"]}} - {{selector:meta[itemprop=\"name\"]?content}} ({{selector:.album_info || tr || td[colspan=\"2\"]|split:\"Released\"|last|split:\"RYM Rating\"|first|split:\"Recorded\"|first|split:\"Genres\"|first|date:\"YYYY\"}})",
+	"path": "Music/Releases/"
+}
