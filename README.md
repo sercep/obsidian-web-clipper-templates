@@ -1,5 +1,5 @@
 # Obsidian Web Clipper templates
-Templates for [Obsidian Web Clipper](https://github.com/obsidianmd/obsidian-clipper) browser extension.
+Templates for [Obsidian Web Clipper](https://obsidian.md/clipper) browser extension.
 
 # List of my templates
 | Script | Site | Description |
